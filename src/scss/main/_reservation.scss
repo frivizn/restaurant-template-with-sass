@@ -1,0 +1,28 @@
+.reservation h2 {
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.reservation-form {
+  padding: 50px 20px;
+  background: $secondary;
+
+  h2 {
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .form .button {
+    border: 1px solid #000;
+    background: #222;
+    color: white;
+
+    &:hover {
+      background: $secondary;
+      border: 1px solid #000;
+      color: #000;
+      transition: 1s ease-in-out;
+    }
+  }
+}

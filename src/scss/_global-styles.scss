@@ -1,0 +1,46 @@
+/*
+ * Box-sizing Reset
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: $main-font;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*
+ * Button
+ */
+
+button {
+  all: unset;
+}
+
+/*
+ * Browser Upgrade Prompt
+ */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}

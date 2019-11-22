@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------
+   Color Palette
+  ------------------------------------------------------------ */
+
+/*
+  #c0a756 - (vegas-gold);    // primary
+  #6cd4ff - (maya-blue);     // secondary
+  #0c0901 - (smoky-black);   // heading
+  #777777 - (sonic-silver);  // text
+  #4b4745 - (quartz);        // background   
+*/
+
+$vegas-gold: #c0a756;
+$maya-blue: #6cd4ff;
+$smoky-black: #0c0901;
+$sonic-silver: #777777;
+$quartz: #4b4745;
+
+$primary: $vegas-gold;
+$secondary: $maya-blue;
+$heading: $smoky-black;
+$text: $sonic-silver;
+$background: $quartz;
+
+$main-font: "Raleway", sans-serif;
+$font-highlight: "Open Sans", sans-serif;

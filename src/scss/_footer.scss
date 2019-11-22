@@ -1,0 +1,49 @@
+footer {
+  color: #fff;
+  text-align: center;
+  background: $background;
+  padding-top: 30px;
+
+  .contact-address,
+  .open-hours {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    padding: 10px;
+  }
+  p {
+    padding: 5px;
+  }
+}
+
+/*
+ * Social Media Links
+ */
+
+.social-media-links {
+  display: flex;
+  justify-content: space-around;
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+  a {
+    color: #fff;
+  }
+}
+
+/*
+ * Web Studio Information
+ */
+
+.studio-info {
+  background: $heading;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

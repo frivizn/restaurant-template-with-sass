@@ -1,0 +1,49 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "text text"
+    "image image";
+
+  .about-text {
+    grid-area: text;
+    background: $secondary;
+  }
+
+  .about-img {
+    grid-area: image;
+    padding: 0;
+  }
+
+  h2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 1.8em;
+    font-family: "Great Vibes", cursive;
+    color: $heading;
+  }
+
+  p {
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.4;
+  }
+
+  button {
+    border: 1px solid $primary;
+    background: transparent;
+    margin: 0px 0 40px 20px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: $heading;
+    cursor: pointer;
+
+    &:hover {
+      background: $primary;
+      color: #000;
+      transition: 1s ease-in-out;
+    }
+  }
+}

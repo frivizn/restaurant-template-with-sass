@@ -1,0 +1,46 @@
+.our-menu {
+  background: #f2f2f2;
+
+  h2 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 1.5em;
+    font-family: cursive;
+    text-align: center;
+    color: $background;
+  }
+
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.main-menu {
+  padding: 20px;
+
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: $text;
+    padding-bottom: 30px;
+  }
+
+  > p {
+    font-size: 0.7em;
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-top: 0;
+  }
+}
+
+.menu-item p {
+  font-weight: 700;
+
+  p + p {
+    font-weight: 700;
+  }
+}

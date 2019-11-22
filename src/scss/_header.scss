@@ -1,0 +1,184 @@
+#header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+  background: rgba(12, 12, 13, 0.7);
+}
+
+/*
+ * Logo
+ */
+
+.logo a {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+  color: $primary;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+/*
+ * Navigation
+ */
+
+a.burger-menu {
+  position: absolute;
+  top: 32px;
+  right: 30px;
+}
+
+ul {
+  position: absolute;
+  background: rgba(40, 40, 40, 0.9);
+  width: 95%;
+  top: 100%;
+  right: 0%;
+  margin: 0px;
+  height: auto;
+
+  li {
+    padding: 20px;
+    border-bottom: 1px solid #777;
+  }
+
+  li a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+/*
+ * Slide Menu Animation
+ */
+
+.hide {
+  animation-duration: 1s;
+  animation-name: slideout;
+  width: 0%;
+}
+@keyframes slideout {
+  from {
+    width: 95%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
+
+.show {
+  animation-duration: 1s;
+  animation-name: slidein;
+  width: 95%;
+}
+
+@keyframes slidein {
+  from {
+    width: 5%;
+  }
+
+  to {
+    width: 95%;
+  }
+}
+
+/*
+ * Slide Image Animation
+ */
+
+.mySlides {
+  display: none;
+  height: 100vh;
+}
+
+.slide-one,
+.slide-two,
+.slide-three,
+.slide-four {
+  @include backgroundProperties;
+}
+
+.slide-one {
+  background-image: url(../images/slide-one.jpg);
+}
+
+.slide-two {
+  background-image: url(../images/slide-two.jpg);
+}
+
+.slide-three {
+  background-image: url(../images/slide-three.jpg);
+}
+
+.slide-four {
+  background-image: url(../images/slide-four.jpg);
+}
+
+.slide-content {
+  width: 100%;
+  height: 100vh;
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-size: 0.9em;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    color: #fff;
+    font-family: "Great Vibes", cursive;
+  }
+
+  button {
+    border: 1px solid $primary;
+    background: transparent;
+    margin: 40px 0 40px 0;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 5px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.prev {
+  left: 5px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.prev:hover,
+.next:hover {
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.8);
+}

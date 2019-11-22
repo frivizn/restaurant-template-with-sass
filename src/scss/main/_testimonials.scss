@@ -1,0 +1,73 @@
+.testimonials {
+  width: 100%;
+  background-color: $background;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testimonials-container {
+  position: relative;
+  color: #fff;
+  margin: 20px auto;
+  max-width: 768px;
+  padding: 20px 30px;
+}
+
+.fa-quote {
+  display: none;
+}
+
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+  font-style: italic;
+}
+
+.centered-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials-logo {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.user-details {
+  margin-left: 10px;
+}
+
+.username {
+  margin-left: 10px;
+}
+
+.role {
+  font-weight: normal;
+  margin: 2px 0 2px 10px;
+}
+
+i.fa-star {
+  color: $secondary;
+  margin-left: 10px;
+}
+
+i.fa-star:last-child {
+  color: #fff;
+}
+
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}

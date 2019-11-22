@@ -1,0 +1,24 @@
+@mixin backgroundProperties(
+  $position: center center,
+  $size: cover,
+  $repeat: no-repeat
+) {
+  background-position: $position;
+  background-size: $size;
+  background-repeat: $repeat;
+}
+
+/*
+ * Helper class - clearfix
+ */
+
+@mixin clearfix {
+  &::before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

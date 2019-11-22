@@ -1,0 +1,33 @@
+.team h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 1.5em;
+  font-family: cursive;
+  text-align: center;
+  color: $background;
+  text-transform: uppercase;
+}
+
+.team-member {
+  background: $secondary;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  text-align: center;
+
+  h3 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  h4 {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 1em;
+  }
+
+  p:last-child {
+    font-size: 0.7em;
+    padding: 0px 20px 30px 20px;
+    text-align: justify;
+  }
+}

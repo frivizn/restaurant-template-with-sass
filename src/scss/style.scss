@@ -1,0 +1,20 @@
+/* -----------------------------------------------------------
+   All Styles
+  ----------------------------------------------------------- */
+
+@import "normalize";
+@import "variables";
+@import "mixins";
+@import "global-styles";
+@import "typography";
+@import "header";
+@import "main/about";
+@import "main/our-menu";
+@import "main/gallery";
+@import "main/team";
+@import "main/testimonials";
+@import "main/reservation";
+@import "main/contact";
+@import "footer";
+@import "media-queries/media-queries-tablet";
+@import "media-queries/media-queries-desktop";

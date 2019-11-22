@@ -1,0 +1,70 @@
+@media only screen and (min-width: 50em) {
+  /*
+   * Slide Image 
+   */
+
+  .slide-content {
+    padding-top: 127px;
+
+    h1 {
+      font-size: 2em;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      color: #fff;
+      font-family: "Great Vibes", cursive;
+    }
+  }
+
+  /*
+   * Our Menu
+   */
+
+  .our-menu h2 {
+    padding-top: 80px;
+    font-size: 1.8em;
+  }
+
+  .main-menu > p {
+    font-size: 1em;
+    padding-bottom: 20px;
+  }
+
+  .menu-item p {
+    font-size: 1.1em;
+  }
+
+  /*
+   * Gallery
+   */
+
+  .gallery h2 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 1.8em;
+  }
+
+  .gallery-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /*
+   * Team
+   */
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    a {
+      margin-bottom: 0;
+    }
+  }
+}
