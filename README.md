@@ -2,4 +2,4 @@
 
 ## Fully responsive single page restaurant website
 
-![](images/screen-mockup.jpg)
+![](src/images/screen-mockup.jpg)
